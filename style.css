@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px; /*tamanho da fonte, melhor em px */
+}
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+/*LAYOUT*/
+
+.container{
+max-width: 1080px;
+margin: 0 auto; 
+margin-top: 10rem;
+}
+
+/*FONTES*/
+
+h3{
+    font-size: 2.5rem;
+
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*BOTÃO*/
+
+.btn{
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.btn-branco{
+    color: #ad337a;
+    background-color: white;
+
+}
+.btn-roxo{
+    color: #a5d610;
+    border: 1px solid #a5d610;
+}
+
+/*UTILIDADES*/
+
+/*HEADER BANNER*/
+.banner{
+    background: url(../img/banner-bg.png) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding-top: 20rem;
+    color: #a5d610;
+
+}
+
+.banner__titulo{
+    font-size: 5rem;
+}
+
+.banner__subtitulo{
+    font-size: 2.3rem;
+}
+
+/*SEÇÃO SOBRE*/
+
+.sobre__titulo{
+    font-size: 4rem;
+    color: #ad337a;
+    text-align: center;
+
+}
+
+.sobre-descricao, .sobre-habilidades{
+    width: 40%;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.sobre-descricao__destaque, .sobre-habilidades__titulo{
+    font-size: 2rem;
+
+}
+
+.sobre-habilidades{
+    margin-left:10rem;
+
+}
+
+.sobre-habilidades__lista{
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+
+/*REDES*/
+
+.footer{
+    text-align: center;
+
+}
+
+.redes-sociais__link{
+    display: inline-block;
+    width: 20%;
+    background-color: #a5d610;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+
+}
+
+.redes-sociais__img, .redes-sociais__titulo{
+    margin-bottom: .5rem;
+
+}
+
+.footer-copyright__texto{
+    color: #cc44cc;
+    font-weight: lighter;
+    margin-top: 3rem;
+    padding: 1rem;
+
+}
